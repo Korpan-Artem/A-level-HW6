@@ -1,0 +1,57 @@
+*{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-size: 32px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+/*-------------Задание 1--------------*/
+
+.block-1 , .block-2{
+    width: 150px;
+    height: 50px;
+    margin: 10px 0 0 0;
+    padding: 20px;
+ 
+}
+
+.block-1{
+    border:3px solid black;
+    box-sizing: border-box;
+}
+
+.block-2{
+    border:3px solid black;
+    box-sizing: content-box;
+}
+
+/*-------------Задание 2--------------*/
+
+.block-3{
+    width: 350px;
+    width: 220px;
+    padding: 15px 10px 20px 10px;
+    margin: 0 0 30px 0 ;
+    border: 2px dashed rgb(255, 0, 0);
+    background-color: rgb(0, 255, 0);
+}
+
+/*-------------Задание 3--------------*/
+
+.img-float-1 {
+    float: left;
+    width: 250px;
+    margin:0 20px 20px 0;
+  }
+
+  .img-float-2 {
+    float: right;
+    width: 250px;
+    margin:0 20px 20px 0;
+  }

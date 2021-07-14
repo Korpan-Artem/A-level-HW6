@@ -1,0 +1,95 @@
+*{
+    font-family: Georgia, Times, serif;
+}
+
+body{
+    background-image: url('../images/fon.jpg');
+}
+
+main{
+    max-width: 700px;
+    margin: 40px auto;
+    
+}
+
+.header > p {
+    text-align: center;
+}
+
+.header > p:first-child{
+    color:rgb(238, 238, 238);
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.header > p:last-child {
+    font-size: 20px;
+    padding: 20px 125px;
+    line-height: 30px;
+}
+
+.block-img{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border: 10px solid rgb(255, 255, 255);
+}
+
+.img-man{
+    display: block;
+    width: 100%;
+    margin: 0 auto;   
+}
+
+.content{
+    margin: 60px 0;
+    padding: 0 30px;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 30px 0;
+}
+
+li{
+    font-size: 16px;
+    padding:0 30px ;
+    margin: 15px 0;
+}
+
+li::before{
+    content:'';
+    width: 20px;
+    height: 20px;
+    padding: 0 10px;
+    margin: 0 10px;
+    background-image: url(../images/check-icon.svg);
+    background-repeat: no-repeat;
+}
+
+li:first-child{
+    font-weight: 600;
+}
+
+li:nth-child(2){
+    font-style: italic ;
+    color: rgb(102, 114, 102);
+}
+
+li:nth-child(3){
+    font-weight: 700;
+}
+
+li:last-child{
+    font-weight: 300;
+    text-decoration: line-through;
+    color: rgb(94, 94, 94);
+}
+
+button{
+    background-color: rgb(75, 198, 255);
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin: 20px 0  20px 30px;
+}
